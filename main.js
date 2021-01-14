@@ -38,7 +38,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true });
 mongoose.set("useCreateIndex", true);
 
-app.set("port", process.env.PORT);
+app.set("port", process.env.PORT || 3000);
 app.set("view engine", "ejs");
 
 app.use(
