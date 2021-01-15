@@ -14,7 +14,7 @@ const express = require("express"),
   connectFlash = require("connect-flash"),
   User = require("./models/user");
 
-require('dotenv').config()
+require("dotenv").config();
 const swaggerJsDoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 const swaggerOptions = {
@@ -47,7 +47,7 @@ app.use(
   })
 );
 
-app.use(morgan("combined"));
+app.use(morgan(":method :url :status * :response-time ms"));
 app.use(layouts);
 app.use(express.static("public"));
 app.use(expressValidator());
