@@ -1,12 +1,12 @@
 # Cuizeen
-Fully featured web app to connect foodies and chefs
-Cuizeen is a simple web app, to help connect foodies and chefs to share and learn recipes for prominent continental meals.
+### Fully featured web app to connect foodies and chefs
+#### Cuizeen is a simple web app, to help connect foodies and chefs to share and learn recipes for prominent continental meals.
 
 ## Getting Started
 
 # SETUP
-#####Fork the repo. 
-Clone the repo.
+##### Fork the repo. 
+##### Clone the repo.
 -------------
 `git clone https://github.com/jobafash/Cuizeen.git && cd Cuizeen`
 ## Prerequisites
