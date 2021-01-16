@@ -1,14 +1,5 @@
 # Cuizeen
 Fully featured web app to connect foodies and chefs
-
-Fork
-git clone
-cd cuizeen
-npm install
-Copy env.example to env
-npm start
-
-# BelvinsStore
 Cuizeen is a simple web app, to help connect foodies and chefs to share and learn recipes for prominent continental meals.
 
 ## Getting Started
